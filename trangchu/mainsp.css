@@ -1,0 +1,35 @@
+.bannersp {
+  width: 100%;
+  background-image: url(./images/product-banner.jpg);
+  background-size: 80%;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.bannersp a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #eccc68;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+.bannersp i {
+  padding: 0px 3px;
+  color: #eccc68;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.banner-link {
+  margin-left: 109px;
+}
+.banner-link {
+  background-color: black;
+  padding: 7px;
+  border-radius: 5px;
+}
