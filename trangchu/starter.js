@@ -52,7 +52,8 @@ window.addEventListener("load", function () {
 });
 
 window.addEventListener("load", function () {
-  const eye = document.getElementById("eye");
+  const eye = document.querySelector(".eye");
+  const eye1 = document.querySelector(".eye1");
   eye.addEventListener("click", function () {
     eye.children[0].classList.toggle("fa-eye-slash");
     const input = document.getElementsByTagName("input")[1];
@@ -63,6 +64,14 @@ window.addEventListener("load", function () {
       input.setAttribute("type", "text");
     }
   });
+  eye1.addEventListener("click", function () {
+    eye1.children[0].classList.toggle("fa-eye-slash");
+    const input = document.getElementsByTagName("input")[2];
+    console.log(input.attributes.type.value);
+    if (input.attributes.type.value == "text") {
+      input.setAttribute("type", "password");
+    } else {
+      input.setAttribute("type", "text");
+    }
+  });
 });
-
-

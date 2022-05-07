@@ -1,0 +1,12 @@
+.quan-product {
+  max-width: 1325px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.quan-product h1 {
+  margin: 30px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
