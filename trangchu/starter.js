@@ -51,10 +51,18 @@ window.addEventListener("load", function () {
   }
 });
 
-// window.addEventListener("load", function () {
-//   const eye = document.getElementById("eye");
-//   const eyes = document.querySelector(".fa-solid fa-eye");
-//   eye.addEventListener("click", function () {
-//     eyes.classList.toggle(".fa-solid fa-eye-slash");
-//   });
-// });
+window.addEventListener("load", function () {
+  const eye = document.getElementById("eye");
+  eye.addEventListener("click", function () {
+    eye.children[0].classList.toggle("fa-eye-slash");
+    const input = document.getElementsByTagName("input")[1];
+    console.log(input.attributes.type.value);
+    if (input.attributes.type.value == "text") {
+      input.setAttribute("type", "password");
+    } else {
+      input.setAttribute("type", "text");
+    }
+  });
+});
+
+

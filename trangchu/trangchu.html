@@ -1,326 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hermes-Shop</title>
-    <link
-      rel="shortcut icon"
-      href="./images/iconweb.jpg"
-      type="image/vnd.microsoft.icon"
-    />
-    <link rel="stylesheet" href="./app.css" />
-  </head>
-  <body>
-    <header class="header-wrapper">
-      <div class="header-login">
-        <div class="hotline">Hotline: 0857487577</div>
-        <ul class="login-list">
-          <a href="https://www.facebook.com/phuochoang73.net/">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-          <a href="https://www.instagram.com/ph_totoro/?fbclid=IwAR0vqef1o9HKABmk6j_uCNbD-t_vjGMTmZSLzoRMd5-JMyFnGH06HqLeJ4o">
-            <i class="fa-brands fa-instagram-square"></i>
-          </a>
-          <a href="#">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fa-brands fa-youtube"></i>
-          </a>
-        </ul>
-        <div class="login-signin">
-          <a href="./dangnhap.html">
-            <span class="login">Đăng nhập </span>
-          </a>
-          <span class="xe">/</span>
-          <a href="#">
-            <span class="signin">Đăng kí</span>
-          </a>
-        </div>
-      </div>
-      <nav class="header-nav">
-        <a href="./trangchu.html">
-          <img src="./images/logo.png" alt="" id="logo" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hermes-Shop</title>
+  <link rel="shortcut icon" href="./images/iconweb.jpg" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="./app.css" />
+</head>
+<body>
+  <header class="header-wrapper">
+    <div class="header-login">
+      <div class="hotline">Hotline: 0857487577</div>
+      <ul class="login-list">
+        <a href="https://www.facebook.com/phuochoang73.net/">
+          <i class="fa-brands fa-facebook-f"></i>
         </a>
-        <ul class="nav-list1">
-          <li class="nav-list1__link" >
-            <a class="nav-list1__item" href="./trangchu.html">Trang chủ</a>
-          </li>
-          <li class="nav-list1__link" >
-            <a class="nav-list1__item" href="#">Giới thiệu</a>
-          </li>
-          <li class="nav-list1__link" >
-              <a class="nav-list1__item" href="./sanpham.html">Sản Phẩm <i class="fa-solid fa-angle-down"></i></a>
-							<ul class="sub-list1">
-								<li class="sub-list1__item"><a href="#">Quần</a></li>
-								<li class="sub-list1__item"><a href="#">Áo</a></li>
-								<li class="sub-list1__item"><a href="#">Giày</a></li>	
-							</ul> 
-          </li>
-          <li class="nav-list1__link">
-            <a class="nav-list1__item" href="./news.html">Tin tức</a>
-          </li>
-          <li class="nav-list1__link" >
-            <a class="nav-list1__item" href="#">Liên hệ</a>
-          </li>
-        </ul>
-        <ul class="nav-list2">
-          <a href="#">
-            <i class="fa-solid fa-basket-shopping"></i>
-          </a>
-          <form action="" id="search-box">
-            <input type="text" id="search-text" placeholder="Bạn cần tìm kiếm gì?" required>
-            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </form>
-        </ul>
-      </nav>
-    </header>
-    <main class="main-wrapper">
-      <div class="slider">
-        <i class="fa fa-angle-left slider-prev"></i>
-        <ul class="slider-dots">
-          <li class="slider-dot-item active" data-index="0"></li>
-          <li class="slider-dot-item" data-index="1"></li>
-          <li class="slider-dot-item" data-index="2"></li>
-          <li class="slider-dot-item" data-index="3"></li>
-          <li class="slider-dot-item" data-index="4"></li>
-        </ul>
-        <div class="slider-wrapper">
-          <div class="slider-main">
-            <div class="slider-item">
-              <img src="./images/banner1.jpg" alt="" />
-            </div>
-            <div class="slider-item">
-              <img
-                src="./images/banner0.jpg"
-                alt=""
-              />
-            </div>
-            <div class="slider-item">
-              <img
-                src="./images/banner2.jpg"
-                alt=""
-              />
-            </div>
-            <div class="slider-item">
-              <img
-                src="./images/banner3.jpg"
-                alt=""
-              />
-            </div>
-            <div class="slider-item">
-              <img
-                src="./images/banner4.jpg"
-                alt=""
-              />
-            </div>
+        <a
+          href="https://www.instagram.com/ph_totoro/?fbclid=IwAR0vqef1o9HKABmk6j_uCNbD-t_vjGMTmZSLzoRMd5-JMyFnGH06HqLeJ4o">
+          <i class="fa-brands fa-instagram-square"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </ul>
+      <div class="login-signin">
+        <a href="./dangnhap.html">
+          <span class="login">Đăng nhập </span>
+        </a>
+        <span class="xe">/</span>
+        <a href="#">
+          <span class="signin">Đăng kí</span>
+        </a>
+      </div>
+    </div>
+    <nav class="header-nav">
+      <a href="./trangchu.html">
+        <img src="./images/logo.png" alt="" id="logo" />
+      </a>
+      <ul class="nav-list1">
+        <li class="nav-list1__link">
+          <a class="nav-list1__item" href="./trangchu.html">Trang chủ</a>
+        </li>
+        <li class="nav-list1__link">
+          <a class="nav-list1__item" href="#">Giới thiệu</a>
+        </li>
+        <li class="nav-list1__link">
+          <a class="nav-list1__item" href="./sanpham.html">Sản Phẩm <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="sub-list1">
+            <li class="sub-list1__item"><a href="#">Quần</a></li>
+            <li class="sub-list1__item"><a href="#">Áo</a></li>
+            <li class="sub-list1__item"><a href="#">Giày</a></li>
+          </ul>
+        </li>
+        <li class="nav-list1__link">
+          <a class="nav-list1__item" href="./news.html">Tin tức</a>
+        </li>
+        <li class="nav-list1__link">
+          <a class="nav-list1__item" href="#">Liên hệ</a>
+        </li>
+      </ul>
+      <ul class="nav-list2">
+        <a href="#">
+          <i class="fa-solid fa-basket-shopping"></i>
+        </a>
+        <form action="" id="search-box">
+          <input type="text" id="search-text" placeholder="Bạn cần tìm kiếm gì?" required>
+          <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-wrapper">
+    <div class="slider">
+      <i class="fa fa-angle-left slider-prev"></i>
+      <ul class="slider-dots">
+        <li class="slider-dot-item active" data-index="0"></li>
+        <li class="slider-dot-item" data-index="1"></li>
+        <li class="slider-dot-item" data-index="2"></li>
+        <li class="slider-dot-item" data-index="3"></li>
+        <li class="slider-dot-item" data-index="4"></li>
+      </ul>
+      <div class="slider-wrapper">
+        <div class="slider-main">
+          <div class="slider-item">
+            <img src="./images/banner1.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/banner0.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/banner2.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/banner3.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/banner4.jpg" alt="" />
           </div>
         </div>
-        <i class="fa fa-angle-right slider-next"></i>
       </div>
+      <i class="fa fa-angle-right slider-next"></i>
+    </div>
+    </div>
+    <div class="banner">
+      <div class="banner-wrapper">
+        <h1>Thời trang, phong cách, lịch lãm</h1>
+        <ul class="banner__list">
+          <li class="banner__item">
+            <img src="./images/imgbanner1.jpg" alt="">
+            <div class="name">Lịch lãm</div>
+          </li>
+          <li class="banner__item">
+            <img src="./images/imgbanner2.jpg" alt="">
+            <div class="name">Thời trang</div>
+          </li>
+          <li class="banner__item">
+            <img src="./images/imgbanner3.jpg" alt="">
+            <div class="name">Phong cách</div>
+          </li>
+        </ul>
       </div>
-      <div class="banner">
-        <div class="banner-wrapper">
-          <h1>Thời trang, phong cách, lịch lãm</h1>
-          <ul class="banner__list">
-            <li class="banner__item">
-                <img src="./images/imgbanner1.jpg" alt="">
-                <div class="name">Lịch lãm</div>
-            </li>
-            <li class="banner__item">
-                <img src="./images/imgbanner2.jpg" alt="">
-                <div class="name">Thời trang</div>
-            </li>
-            <li class="banner__item">
-                <img src="./images/imgbanner3.jpg" alt="">
-                <div class="name">Phong cách</div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="bestseller">
-        <div class="bestseller-wrapper">
-          <h1>Các sản phẩm bán chạy</h1>
-          <ul class="product__list">
-            <li>
-              <div class="product__item">
-                <div class="product-top">
-                  <a href="#" class="product-img">
-                    <img src="./images/ao/ÁO POLO NAM APS010S7.png" alt="">
-                  </a>
-                  <a href="#" class="buynow">Mua ngay</a>
-                </div>
-                <div class="product-bot">
-                  <a href="#" class="product-cat">Áo</a>
-                  <a href="" class="product-name">ÁO POLO NAM APS010S7</a>
-                  <div class="product-price">350.000đ</div>
-                </div>
+    </div>
+    <div class="bestseller">
+      <div class="bestseller-wrapper">
+        <h1>Các sản phẩm bán chạy</h1>
+        <ul class="product__list">
+          <li>
+            <div class="product__item">
+              <div class="product-top">
+                <a href="#" class="product-img">
+                  <img src="./images/ao/ÁO POLO NAM APS010S7.png" alt="">
+                </a>
+                <a href="#" class="buynow">Mua ngay</a>
               </div>
-            </li>
-            <li>
-              <div class="product__item">
-                <div class="product-top">
-                  <a href="#" class="product-img">
-                    <img src="./images/giay/veo ankle boot.png" alt="">
-                  </a>
-                  <a href="#" class="buynow">Mua ngay</a>
-                </div>
-                <div class="product-bot">
-                  <a href="#" class="product-cat">Giày</a>
-                  <a href="" class="product-name">veo ankle boot</a>
-                  <div class="product-price">350.000đ</div>
-                </div>
+              <div class="product-bot">
+                <a href="#" class="product-cat">Áo</a>
+                <a href="" class="product-name">ÁO POLO NAM APS010S7</a>
+                <div class="product-price">350.000đ</div>
               </div>
-            </li>
-            <li>
-              <div class="product__item">
-                <div class="product-top">
-                  <a href="#" class="product-img">
-                    <img src="./images/quan/Quan kaki tron.png" alt="">
-                  </a>
-                  <a href="#" class="buynow">Mua ngay</a>
-                </div>
-                <div class="product-bot">
-                  <a href="#" class="product-cat">Quần</a>
-                  <a href="" class="product-name">Quần kaki trơn</a>
-                  <div class="product-price">350.000đ</div>
-                </div>
+            </div>
+          </li>
+          <li>
+            <div class="product__item">
+              <div class="product-top">
+                <a href="#" class="product-img">
+                  <img src="./images/giay/veo ankle boot.png" alt="">
+                </a>
+                <a href="#" class="buynow">Mua ngay</a>
               </div>
-            </li>
-            <li>
-              <div class="product__item">
-                <div class="product-top">
-                  <a href="#" class="product-img">
-                    <img src="./images/giay/duke loafer.png" alt="">
-                  </a>
-                  <a href="#" class="buynow">Mua ngay</a>
-                </div>
-                <div class="product-bot">
-                  <a href="#" class="product-cat">Giày</a>
-                  <a href="" class="product-name">duke loafer</a>
-                  <div class="product-price">350.000đ</div>
-                </div>
+              <div class="product-bot">
+                <a href="#" class="product-cat">Giày</a>
+                <a href="" class="product-name">veo ankle boot</a>
+                <div class="product-price">350.000đ</div>
               </div>
-            </li>
-            <li>
-              <div class="product__item">
-                <div class="product-top">
-                  <a href="#" class="product-img">
-                    <img src="./images/ao/ÁO POLO NAM APS014S7.png" alt="">
-                  </a>
-                  <a href="#" class="buynow">Mua ngay</a>
-                </div>
-                <div class="product-bot">
-                  <a href="#" class="product-cat">Áo</a>
-                  <a href="" class="product-name">ÁO POLO NAM APS014S7</a>
-                  <div class="product-price">350.000đ</div>
-                </div>
+            </div>
+          </li>
+          <li>
+            <div class="product__item">
+              <div class="product-top">
+                <a href="#" class="product-img">
+                  <img src="./images/quan/Quan kaki tron.png" alt="">
+                </a>
+                <a href="#" class="buynow">Mua ngay</a>
               </div>
-            </li>
-            <li>
-              <div class="product__item">
-                <div class="product-top">
-                  <a href="#" class="product-img">
-                    <img src="./images/quan/QUẦN ÂU NAM ATR006S7.png" alt="">
-                  </a>
-                  <a href="#" class="buynow">Mua ngay</a>
-                </div>
-                <div class="product-bot">
-                  <a href="#" class="product-cat">Quần</a>
-                  <a href="" class="product-name">QUẦN ÂU NAM ATR006S7</a>
-                  <div class="product-price">350.000đ</div>
-                </div>
+              <div class="product-bot">
+                <a href="#" class="product-cat">Quần</a>
+                <a href="" class="product-name">Quần kaki trơn</a>
+                <div class="product-price">350.000đ</div>
               </div>
-            </li>
-            <li>
-              <div class="product__item">
-                <div class="product-top">
-                  <a href="#" class="product-img">
-                    <img src="./images/giay/enzo loafer.png" alt="">
-                  </a>
-                  <a href="#" class="buynow">Mua ngay</a>
-                </div>
-                <div class="product-bot">
-                  <a href="#" class="product-cat">Giày</a>
-                  <a href="" class="product-name">enzo loafer</a>
-                  <div class="product-price">350.000đ</div>
-                </div>
+            </div>
+          </li>
+          <li>
+            <div class="product__item">
+              <div class="product-top">
+                <a href="#" class="product-img">
+                  <img src="./images/giay/duke loafer.png" alt="">
+                </a>
+                <a href="#" class="buynow">Mua ngay</a>
               </div>
-            </li>
-            <li>
-              <div class="product__item">
-                <div class="product-top">
-                  <a href="#" class="product-img">
-                    <img src="./images/quan/QUẦN SHORT NAM ASO017S7.png" alt="">
-                  </a>
-                  <a href="#" class="buynow">Mua ngay</a>
-                </div>
-                <div class="product-bot">
-                  <a href="#" class="product-cat">Quầna>
+              <div class="product-bot">
+                <a href="#" class="product-cat">Giày</a>
+                <a href="" class="product-name">duke loafer</a>
+                <div class="product-price">350.000đ</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product__item">
+              <div class="product-top">
+                <a href="#" class="product-img">
+                  <img src="./images/ao/ÁO POLO NAM APS014S7.png" alt="">
+                </a>
+                <a href="#" class="buynow">Mua ngay</a>
+              </div>
+              <div class="product-bot">
+                <a href="#" class="product-cat">Áo</a>
+                <a href="" class="product-name">ÁO POLO NAM APS014S7</a>
+                <div class="product-price">350.000đ</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product__item">
+              <div class="product-top">
+                <a href="#" class="product-img">
+                  <img src="./images/quan/QUẦN ÂU NAM ATR006S7.png" alt="">
+                </a>
+                <a href="#" class="buynow">Mua ngay</a>
+              </div>
+              <div class="product-bot">
+                <a href="#" class="product-cat">Quần</a>
+                <a href="" class="product-name">QUẦN ÂU NAM ATR006S7</a>
+                <div class="product-price">350.000đ</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product__item">
+              <div class="product-top">
+                <a href="#" class="product-img">
+                  <img src="./images/giay/enzo loafer.png" alt="">
+                </a>
+                <a href="#" class="buynow">Mua ngay</a>
+              </div>
+              <div class="product-bot">
+                <a href="#" class="product-cat">Giày</a>
+                <a href="" class="product-name">enzo loafer</a>
+                <div class="product-price">350.000đ</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product__item">
+              <div class="product-top">
+                <a href="#" class="product-img">
+                  <img src="./images/quan/QUẦN SHORT NAM ASO017S7.png" alt="">
+                </a>
+                <a href="#" class="buynow">Mua ngay</a>
+              </div>
+              <div class="product-bot">
+                <a href="#" class="product-cat">Quầna>
                   <a href="" class="product-name">QUẦN SHORT NAM ASO017S7</a>
                   <div class="product-price">350.000đ</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="bigbanner">
+      <h1>H e r m e s</h1>
+    </div>
+    <div class="news">
+      <div class="news-wrapper">
+        <h1>Tin tức</h1>
+        <div class="news-list">
+          <div class="news-row">
+            <div class="news-row-box">
+              <div class="news-image">
+                <img src="images/tin-1.jpg" alt="image">
+              </div>
+              <div class="news-content">
+                <div class="news-content-top">
+                  <a target="_blank"
+                    href="https://vnexpress.net/elon-musk-tao-dang-tren-tham-do-met-gala-4458708.html">Elon Musk tạo
+                    dáng trên thảm đỏ Met Gala</a>
+                  <p>NEW YORK- Tỷ phú công nghệ Elon Musk chu môi, nghiêng người hài hước bên dàn sao ở Met Gala 2022.
+                  </p>
+                </div>
+                <div class="news-content-bot">
+                  <i class="fa-solid fa-thumbs-up"> 22</i>
+                  <i class="fa-solid fa-comment-dots"> 13</i>
+                  <i class="fa-solid fa-share"> 101</i>
                 </div>
               </div>
-            </li>
-          </ul>
+            </div>
+            <div class="news-row-box">
+              <div class="news-image">
+                <img src="images/tin-2.jpg" alt="image">
+              </div>
+              <div class="news-content">
+                <div class="news-content-top">
+                  <a target="_blank" href="https://vnexpress.net/nhung-quy-ong-noi-loan-o-met-gala-4456634.html">Những
+                    quý ông nổi loạn ở Met Gala</a>
+                  <p>Jared Leto cầm hình nộm chiếc đầu của chính mình đến Met Gala, tạo thành một trong những khoảnh
+                    khắc nổi loạn ở lịch sử sự kiện.</p>
+                </div>
+                <div class="news-content-bot">
+                  <i class="fa-solid fa-thumbs-up"> 212</i>
+                  <i class="fa-solid fa-comment-dots"> 523</i>
+                  <i class="fa-solid fa-share"> 1021</i>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="bigbanner">
-        <h1>H e r m e s</h1>
-      </div>
-      <div class="news">
-        <div class="news-wrapper">
-          <h1>Tin tức</h1>
-        </div>
-      </div>
-    </main>
-    <footer class="footer-wrapper">
-      <div class="footer-container">
-        <div class="aboutme">
-          <h1 class="aboutme-title">Về chúng tôi</h1>
-          <p>Chuyên sản xuất hàng da, phụ kiện thời trang, áo quần may sẵn trẻ trung và phong cách.
-            Sẳn sàng phục vụ quý khách
-          </p>
-          <ul class="aboutme-list">
-            <li class="aboutme-item"><i class="fa-solid fa-location-dot"></i> Địa chỉ</li>
-            <li class="aboutme-item"><i class="fa-solid fa-phone"></i> 1900 1009</li>
-            <li class="aboutme-item"><i class="fa-solid fa-envelope"></i>
-              <span> hoangb2014568@student.ctu.edu.vn</span></li>
-            <li class="aboutme-item"><i class="fa-solid fa-envelope">
+    </div>
+  </main>
+  <footer class="footer-wrapper">
+    <div class="footer-container">
+      <div class="aboutme">
+        <h1 class="aboutme-title">Về chúng tôi</h1>
+        <p>Chuyên sản xuất hàng da, phụ kiện thời trang, áo quần may sẵn trẻ trung và phong cách.
+          Sẳn sàng phục vụ quý khách
+        </p>
+        <ul class="aboutme-list">
+          <li class="aboutme-item"><i class="fa-solid fa-location-dot"></i> Địa chỉ</li>
+          <li class="aboutme-item"><i class="fa-solid fa-phone"></i> 1900 1009</li>
+          <li class="aboutme-item"><i class="fa-solid fa-envelope"></i>
+            <span> hoangb2014568@student.ctu.edu.vn</span>
+          </li>
+          <li class="aboutme-item"><i class="fa-solid fa-envelope">
             </i><span> xuanb2005783@student.ctu.edu.vn</span></li>
-            <li class="aboutme-item"><i class="fa-solid fa-envelope"></i>
-            <span> vinhb2017094@student.ctu.edu.vn</span></li>
-          </ul>
-        </div>
-          <div class="brand">
-            <h1 class="brand-title">Thương hiệu</h1>
-            <ul class="brand-list">
-              <li class="brand-item"><a href="#">Giới thiệu</a></li>
-              <li class="brand-item"><a href="#">Tuyển dụng</a></li>
-              <li class="brand-item"><a href="#">Hệ thống cửa hàng</a></li>
-              <li class="brand-item"><a href="#">Liên hệ</a></li>
-            </ul>
-          </div>
-          <div class="support">
-            <h1 class="support-title">Hỗ trợ</h1>
-            <ul class="support-list">
-              <li class="support-item"><a href="#">FAQs - Hỏi đáp</a></li>
-              <li class="support-item"><a href="#">Chính sách vận chuyển</a></li>
-              <li class="support-item"><a href="#">Hướng dẫn thanh toán</a></li>
-              <li class="support-item"><a href="#">Kiểm tra đơn hàng</a></li>
-              <li class="support-item"><a href="#">Quy định dổi hàng</a></li>
-            </ul>
-          </div>
-        </div>
+          <li class="aboutme-item"><i class="fa-solid fa-envelope"></i>
+            <span> vinhb2017094@student.ctu.edu.vn</span>
+          </li>
+        </ul>
       </div>
-    </footer>
-  </body>
-  <script
-    src="https://kit.fontawesome.com/c45226403c.js"
-    crossorigin="anonymous"
-  ></script>
+      <div class="brand">
+        <h1 class="brand-title">Thương hiệu</h1>
+        <ul class="brand-list">
+          <li class="brand-item"><a href="#">Giới thiệu</a></li>
+          <li class="brand-item"><a href="#">Tuyển dụng</a></li>
+          <li class="brand-item"><a href="#">Hệ thống cửa hàng</a></li>
+          <li class="brand-item"><a href="#">Liên hệ</a></li>
+        </ul>
+      </div>
+      <div class="support">
+        <h1 class="support-title">Hỗ trợ</h1>
+        <ul class="support-list">
+          <li class="support-item"><a href="#">FAQs - Hỏi đáp</a></li>
+          <li class="support-item"><a href="#">Chính sách vận chuyển</a></li>
+          <li class="support-item"><a href="#">Hướng dẫn thanh toán</a></li>
+          <li class="support-item"><a href="#">Kiểm tra đơn hàng</a></li>
+          <li class="support-item"><a href="#">Quy định dổi hàng</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/c45226403c.js" crossorigin="anonymous"></script>
   <script src="./starter.js"></script>
+</body>
 </html>
