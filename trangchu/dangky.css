@@ -1,0 +1,15 @@
+.form-submit2 {
+  background-color: transparent;
+  color: #eccc68;
+  border: 1px solid #fff;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  transition: all 0.25s linear;
+  margin: 10px 0px;
+}
+.form-submit2:hover {
+  color: #eccc68;
+  border: 1px #eccc68 solid;
+}
