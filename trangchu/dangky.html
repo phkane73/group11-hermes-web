@@ -13,6 +13,86 @@
     <link rel="stylesheet" href="./app.css" />
   </head>
   <body class="loginw">
+    <header class="header-wrapper">
+      <nav class="header-nav">
+        <a href="./trangchu.html">
+          <img src="./images/logo.png" alt="" id="logo" />
+        </a>
+        <ul class="nav-list1">
+          <li class="nav-list1__link">
+            <a class="nav-list1__item" href="./trangchu.html">Trang chủ</a>
+          </li>
+          <li class="nav-list1__link">
+            <a class="nav-list1__item" href="#">Giới thiệu</a>
+          </li>
+          <li class="nav-list1__link">
+            <a class="nav-list1__item" href="./sanpham.html"
+              >Sản Phẩm <i class="fa-solid fa-angle-down"></i
+            ></a>
+            <ul class="sub-list1">
+              <li class="sub-list1__item"><a href="./quan.html">Quần</a></li>
+              <li class="sub-list1__item"><a href="#">Áo</a></li>
+              <li class="sub-list1__item"><a href="#">Giày</a></li>
+            </ul>
+          </li>
+          <li class="nav-list1__link">
+            <a class="nav-list1__item" href="./news.html">Tin tức</a>
+          </li>
+        </ul>
+        <ul class="nav-list2">
+          <a href="#">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+          <form action="" id="search-box">
+            <input
+              type="text"
+              id="search-text"
+              placeholder="Bạn cần gì?"
+              required
+            />
+            <button id="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </ul>
+      </nav>
+      <div class="menu-responsive">
+        <div class="menu">
+          <i class="fa-solid fa-align-justify"></i>
+        </div>
+        <div class="nav-res">
+          <li class="nav-res__item">
+            <a class="nav-res__a" href="./trangchu.html">Trang chủ</a>
+          </li>
+          <li class="nav-res__item">
+            <a class="nav-res__a" href="#">Giới thiệu</a>
+          </li>
+          <li class="nav-res__item sp">
+            <a class="nav-res__a" href="./sanpham.html">Sản phẩm</a>
+            <ul class="sub-res">
+              <li class="sub-res__item">
+                <div class="sub-res__div sub-res__div--first">
+                  <a href="./quan.html">Quần</a>
+                </div>
+              </li>
+              <li class="sub-res__item">
+                <div class="sub-res__div">
+                  <a href="#">Áo</a>
+                </div>
+              </li>
+              <li class="sub-res__item">
+                <div class="sub-res__div sub-res__div--last">
+                  <a href="#">Giày</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-res__item">
+            <a class="nav-res__a" href="./news.html">Tin tức</a>
+          </li>
+        </div>
+      </div>
+    </header>
     <div id="wrapper">
       <form action="" id="form-login">
         <h1 class="form-title">ĐĂNG KÝ</h1>

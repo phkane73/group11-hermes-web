@@ -36,16 +36,16 @@
   margin-left: 0;
 }
 #radio2:checked ~ .first {
-  margin-left: -103%;
+  margin-left: -1540px;
 }
 #radio3:checked ~ .first {
-  margin-left: -204%;
+  margin-left: -3080px;
 }
 #radio4:checked ~ .first {
-  margin-left: -305%;
+  margin-left: -4620px;
 }
 #radio5:checked ~ .first {
-  margin-left: -406%;
+  margin-left: -6160px;
 }
 .slider-list-auto {
   position: absolute;

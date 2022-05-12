@@ -68,11 +68,11 @@
 }
 .nav-list1 {
   display: flex;
-  padding-left: 70px;
+  padding-left: 50px;
   position: relative;
 }
 .nav-list1__link {
-  padding-left: 55px;
+  padding-left: 40px;
 }
 .nav-list1__item {
   font-size: 20px;
@@ -105,6 +105,7 @@
   border-radius: 100rem;
   transform: scale(0);
   transition: all 0.2s linear;
+  transform: scale(0);
 }
 .nav-list1__item:hover::after {
   z-index: 10;
@@ -120,7 +121,7 @@
   width: 119px;
   background-color: #000;
   top: 20px;
-  left: 442px;
+  left: 380px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   opacity: 0;
@@ -171,7 +172,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 100px;
 }
 .nav-list2 a {
   text-decoration: none;
@@ -214,5 +215,106 @@
 #search-box:hover #search-text,
 #search-box #search-text:valid {
   padding: 10px 0px 10px 15px;
-  width: 190px;
+  width: 250px;
+}
+
+.menu-responsive {
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.menu {
+  width: 50px;
+  background-color: #000;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.menu-responsive i {
+  color: #f5f6fa;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.menu-responsive i:hover {
+  color: #eccc68;
+}
+.nav-res {
+  display: flex;
+  font-size: 25px;
+}
+.nav-res li {
+  list-style-type: none;
+}
+.nav-res a {
+  text-decoration: none;
+  color: #f5f6fa;
+  transition: all 0.1s linear;
+  position: relative;
+}
+.nav-res__item a:hover {
+  color: #eccc68;
+}
+.nav-res__item a::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  bottom: -14px;
+  left: 0;
+  border-radius: 4px;
+  transition: all 0.25s ease-in-out;
+  transform: scale(0);
+}
+.nav-res__item {
+  padding-left: 20px;
+}
+.nav-res__item:hover .nav-res__a::before {
+  z-index: 1000;
+  background-color: #ced6e0;
+  transform: scale(1);
+}
+.sp {
+  position: relative;
+}
+.sub-res {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  width: 0;
+  font-size: 20px;
+  transition: all 0.2s linear;
+}
+.sub-res__div {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-bottom: 1px #f5f6fa solid;
+  background-color: #000;
+  display: none;
+  transition: all 0.2s linear;
+}
+
+.sub-res__item {
+  background-color: transparent;
+}
+.sub-res__div--first {
+  padding-top: 30px;
+}
+.sub-res__div--last {
+  border-bottom-color: #f5f6fa;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.nav-res__item:hover .sub-res {
+  width: 85%;
+  z-index: 10;
+}
+.nav-res__item:hover .sub-res__div {
+  display: block;
 }

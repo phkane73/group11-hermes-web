@@ -1,6 +1,11 @@
+<!-- Những trang tham khảo để tạo nên web này:
+  W3schools
+  F8 Official
+  Evondev
+  Unitop
+  Coding Snow -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,7 +14,6 @@
   <link rel="shortcut icon" href="./images/iconweb.jpg" type="image/vnd.microsoft.icon" />
   <link rel="stylesheet" href="./app.css" />
 </head>
-
 <body>
   <header class="header-wrapper">
     <div class="header-login">
@@ -53,7 +57,7 @@
         <li class="nav-list1__link">
           <a class="nav-list1__item" href="./sanpham.html">Sản Phẩm <i class="fa-solid fa-angle-down"></i></a>
           <ul class="sub-list1">
-            <li class="sub-list1__item"><a href="#">Quần</a></li>
+            <li class="sub-list1__item"><a href="./quan.html">Quần</a></li>
             <li class="sub-list1__item"><a href="#">Áo</a></li>
             <li class="sub-list1__item"><a href="#">Giày</a></li>
           </ul>
@@ -61,21 +65,54 @@
         <li class="nav-list1__link">
           <a class="nav-list1__item" href="./news.html">Tin tức</a>
         </li>
-        <li class="nav-list1__link">
-          <a class="nav-list1__item" href="#">Liên hệ</a>
-        </li>
       </ul>
       <ul class="nav-list2">
         <a href="#">
           <i class="fa-solid fa-basket-shopping"></i>
         </a>
         <form action="" id="search-box">
-          <input type="text" id="search-text" placeholder="Bạn cần tìm kiếm gì?" required>
+          <input type="text" id="search-text" placeholder="Bạn cần gì?" required>
           <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>
       </ul>
     </nav>
+    <div class="menu-responsive">
+      <div class="menu">
+        <i class="fa-solid fa-align-justify"></i>
+      </div>
+      <div class="nav-res">
+        <li class="nav-res__item">
+          <a class="nav-res__a"  href="./trangchu.html">Trang chủ</a>
+        </li>
+        <li class="nav-res__item">
+          <a class="nav-res__a" href="#">Giới thiệu</a>
+        </li>
+        <li class="nav-res__item sp">
+          <a class="nav-res__a" href="./sanpham.html">Sản phẩm</a>
+          <ul class="sub-res">
+            <li class="sub-res__item">
+              <div class="sub-res__div sub-res__div--first">
+                <a href="./quan.html">Quần</a>
+              </div>
+            </li>
+            <li class="sub-res__item">
+              <div class="sub-res__div">
+                <a href="#">Áo</a>
+              </div>
+            </li> 
+            <li class="sub-res__item">
+              <div class="sub-res__div sub-res__div--last">
+                <a href="#">Giày</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-res__item">
+          <a class="nav-res__a" href="./news.html">Tin tức</a>
+        </li>
+      </div>
+    </div>
   </header>
   <main class="main-wrapper">
     <div class="slider-wrapper">
@@ -255,7 +292,7 @@
                 <a href="#" class="buynow">Mua ngay</a>
               </div>
               <div class="product-bot">
-                <a href="#" class="product-cat">Quầna>
+                <a href="#" class="product-cat">Quần</a>
                   <a href="" class="product-name">QUẦN SHORT NAM ASO017S7</a>
                   <div class="product-price">350.000đ</div>
               </div>

@@ -37,3 +37,10 @@ window.addEventListener("load", function () {
     }
   });
 });
+
+window.addEventListener("load", function () {
+  const submit = document.querySelector(".form-submit");
+  submit.addEventListener("click", function () {
+    alert("Bạn đã đăng nhập thành công");
+  });
+});
