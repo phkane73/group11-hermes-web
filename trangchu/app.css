@@ -13,7 +13,7 @@
 
 body {
   max-width: 1540px;
-  margin: 0 auto;
+  text-align: center;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 }
@@ -47,7 +47,7 @@ body {
   }
 }
 
-/* tablet width >=740px and width < 1024px */
+/* tablet  width < 1024px */
 @media screen and (max-width: 1024px) {
   .banner-link {
     margin-left: 20px;
@@ -143,7 +143,8 @@ body {
     width: 150px;
   }
   .banner-wrapper h1 {
-    font-size: 18px;
+    font-size: 28px;
+    text-align: center;
   }
   .banner__item {
     margin-bottom: 18px;
@@ -158,7 +159,7 @@ body {
     flex-basis: 49%;
   }
   .bigbanner {
-    font-size: 60px;
+    font-size: 40px;
   }
   .news {
     display: none;
@@ -224,5 +225,36 @@ body {
   }
   .sub-res__div--first {
     padding-top: 20px;
+  }
+}
+
+/* mobile width < 320 */
+@media screen and (max-width: 480px) {
+  .hotline {
+    padding-left: 20px;
+  }
+  .login-signin {
+    padding-left: 10px;
+  }
+  .nav-res {
+    font-size: 12px;
+  }
+  .sub-res {
+    font-size: 12px;
+  }
+  .nav-list2 i {
+    font-size: 18px;
+  }
+  .nav-list2 a {
+    padding-left: 20px;
+  }
+  #search-text {
+    width: 90px;
+    padding: 10px 0px 10px 15px;
+  }
+  #search-box:hover #search-text,
+  #search-box #search-text:valid {
+    padding: 10px 0px 10px 15px;
+    width: 90px;
   }
 }
