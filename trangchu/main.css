@@ -172,7 +172,7 @@
   margin-bottom: 30px;
 }
 .product__list li img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -226,7 +226,7 @@
   font-weight: bold;
 }
 .bigbanner {
-  width: 100%;
+  width: auto;
   height: 250px;
   background-image: url(./images/imgbig.jpg);
   background-size: 50%;

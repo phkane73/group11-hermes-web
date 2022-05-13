@@ -12,9 +12,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 
 body {
-  /* max-width: 1540px; */
+  width: auto;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+}
+h1 {
+  cursor: default;
 }
 
 /* Responsive */
@@ -107,7 +110,7 @@ body {
     font-size: 20px;
   }
   .footer-container {
-    width: 100%;
+    width: auto;
   }
   .aboutme {
     width: 30%;
@@ -147,6 +150,9 @@ body {
   }
   .banner__item {
     margin-bottom: 18px;
+  }
+  .banner__item img {
+    width: 350px;
   }
   .banner__list {
     flex-direction: column;
