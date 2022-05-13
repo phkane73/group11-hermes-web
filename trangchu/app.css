@@ -215,6 +215,7 @@ h1 {
   }
   .menu-responsive {
     height: 45px;
+    display: none;
   }
   .nav-res {
     font-size: 14px;

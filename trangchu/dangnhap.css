@@ -35,9 +35,10 @@
   color: #eccc68;
   margin-right: 10px;
 }
-/* #eye i {
+.eye,
+.eye1 {
   cursor: pointer;
-} */
+}
 .form-input {
   background-color: transparent;
   border: 0;
