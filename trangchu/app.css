@@ -12,7 +12,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 
 body {
-  width: auto;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 }
@@ -151,6 +150,9 @@ h1 {
   .banner__item {
     margin-bottom: 18px;
   }
+  .banner__item .name {
+    font-size: 27px;
+  }
   .banner__item img {
     width: 350px;
   }
@@ -237,7 +239,7 @@ h1 {
   }
 }
 
-/* mobile width < 320 */
+/* mobile width < 480 */
 @media screen and (max-width: 480px) {
   .hotline {
     padding-left: 20px;
