@@ -69,3 +69,6 @@
   font-size: 20px;
   color: #eccc68;
 }
+.form-title {
+  cursor: none;
+}
