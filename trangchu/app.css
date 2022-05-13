@@ -12,6 +12,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 
 body {
+  width: 1540px;
+  max-width: 100%;
+  margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 }
@@ -50,6 +53,9 @@ h1 {
 
 /* tablet  width < 1024px */
 @media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
   .banner-link {
     margin-left: 20px;
   }
@@ -130,6 +136,9 @@ h1 {
 
 /* mobile width < 740px */
 @media screen and (max-width: 740px) {
+  body {
+    overflow-x: hidden;
+  }
   .login-list {
     display: none;
   }
